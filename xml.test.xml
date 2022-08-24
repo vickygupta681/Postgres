@@ -13,339 +13,478 @@
 <command>AddPPMMerchant</command>
 <data><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <XMLMerchantTE>
-<XMLMerchantBasicInfoTE>
-<beMerchNum>6320340201066548</beMerchNum>
-<feMerchNum/>
-<agentNum/>
-<chainNum/>
-<assocNum>100701</assocNum>
-<bankNumber>6320</bankNumber>
-<dbaName>GET Deli Shop</dbaName>
-<merchantStatus/>
-<backendOnlyMerchant>3</backendOnlyMerchant>
-<leaseIndicator>N</leaseIndicator>
-<source>O</source>
-<clientMerchNum/>
-<merchantLegalNam>John Smith</merchantLegalNam>
-<dda>0</dda>
-</XMLMerchantBasicInfoTE>
-<XMLMerchantDemographicsTE>
-<MerchantParametersTE>
-<salesCode/>
-<userBankNumber>6320</userBankNumber>
-<dateOpened>04011021</dateOpened>
-<branch>0000</branch>
-<cardBrandMCCParticipation>N</cardBrandMCCParticipation>
-<sic>5999</sic>
-<mcc>5999</mcc>
-<amexMCC/>
-<discoverMCC/>
-<dbaPostalCode>90502</dbaPostalCode>
-<dbaCity>TORRANCE</dbaCity>
-<dbaState>CA</dbaState>
-<dbaCountry>US</dbaCountry>
-<ownerName/>
-<socialSecurityNumber/>
-<driversLicenseNumber/>
-<ownState/>
-<businessLicenseNumber/>
-<dbaPhone>9493800345</dbaPhone>
-<dbaExtension>0000</dbaExtension>
-<dbaFax/>
-<managerName/>
-<assistantManager/>
-<yearsInBusiness>05</yearsInBusiness>
-<otherContact/>
-<federalTaxId>123453221</federalTaxId>
-<stateTaxId/>
-<chInfoSecurityProg>N</chInfoSecurityProg>
-<lastCreditCheckDate/>
-<dunsID/>
-<merchantEmail>test123@yahoo.com</merchantEmail>
-<merchantWebsite/>
-<vsDescriptor/>
-<mcDescriptor/>
-<secondaryOwnerName/>
-<secondarySsn/>
-<secdriversLicenseNumber/>
-<secState/>
-<secBusinessLicenseNumber/>
-<dailyAuthCount>0</dailyAuthCount>
-<cwosThreshold/>
-<mcISOId/>
-<ownerFirstName/>
-<ownerLastName/>
-<ownerHomeAddress/>
-<ownerHomeZipCd/>
-<ownerCity/>
-<ownerState/>
-<ownerPhoneNum/>
-<salesRepEmailId/>
-<typeOfGoodsSold/>
-<achProcessFlg>N</achProcessFlg>
-<debitReturnThreshold/>
-<ebtReturnThreshold/>
-<chargeBackEmailId></chargeBackEmailId>
-</MerchantParametersTE>
-<MerchantAccountTE>
-<typeBusiness>2</typeBusiness>
-<typeOwner>2</typeOwner>
-<typeSmallBusiness>4</typeSmallBusiness>
-<typeOwnerEthnic>3</typeOwnerEthnic>
-<incorporation>1</incorporation>
-<edc>Y</edc>
-<ach>N</ach>
-<officer1>0000</officer1>
-<officer2>0000</officer2>
-<dailyFees>N</dailyFees>
-<dailySettlement/>
-<repCode>0000</repCode>
-<fnsNumber>0000000</fnsNumber>
-<memberId>10000788</memberId>
-<investigator>2001</investigator>
-<met>9999</met>
-<printStatement>Y</printStatement>
-<holdStatement>N</holdStatement>
-<newMerchantDeposits>Y</newMerchantDeposits>
-<dailyExceptions>N</dailyExceptions>
-<rank>Y</rank>
-<fraud>Y</fraud>
-<userFlag1/>
-<userFlag2/>
-<userData1/>
-<userData2/>
-<userData3/>
-<userData4/>
-<userData5/>
-<userAcct1>0000000000000000</userAcct1>
-<userAcct2>0000000000000000</userAcct2>
-<pricingOption>0</pricingOption>
-<termOfAgreement/>
-<seasonalMerchant>N</seasonalMerchant>
-<excessiveCredits>N</excessiveCredits>
-<excessiveTransactions>N</excessiveTransactions>
-<irs1099kReportingFlg>Y</irs1099kReportingFlg>
-<irs1099kMerchCopyInd>E</irs1099kMerchCopyInd>
-<apIncludeFlg>N</apIncludeFlg>
-<creditValidation>3</creditValidation>
-<bwStartDate>00000000</bwStartDate>
-<bwStopDate>00000000</bwStopDate>
-<exempt>N</exempt>
-<motoInd/>
-<onlineInd/>
-<seasonalInd/>
-<debitInd/>
-<payWaveInd>3</payWaveInd>
-<businessTypeCd/>
-<ownershipTypeCd/>
-<excessiveCreditNegativeBatch/>
-<amountOfCreditsInBatch/>
-<numberOfCreditsInBatch/>
-<excessiveTranSaleAmount>15000</excessiveTranSaleAmount>
-<excessiveTranCreditAmount/>
-<bypassForcePost>N</bypassForcePost>
-<forcePostThresholdAmount/>
-</MerchantAccountTE>
-<MerchantInterchangeTE>
-<veSupermarket>N</veSupermarket>
-<veElecIntrReimbFee>N</veElecIntrReimbFee>
-<veCustomPaymentService>N</veCustomPaymentService>
-<vePSF>N</vePSF>
-<vePurchasingLargeTicket>N</vePurchasingLargeTicket>
-<veMerchantVolume>N</veMerchantVolume>
-<meMerit>N</meMerit>
-<meIndusIntrProg>N</meIndusIntrProg>
-<meWarehouseClub>N</meWarehouseClub>
-<meCategory>N</meCategory>
-<meTravelIndusPrem>N</meTravelIndusPrem>
-<discoverEligibility>N</discoverEligibility>
-<discDebtRepayment>N</discDebtRepayment>
-<vpSupermarketDebit>N</vpSupermarketDebit>
-<vpSupermarketCredit>N</vpSupermarketCredit>
-<vpRetailDebit>N</vpRetailDebit>
-<vpRetailCredit>N</vpRetailCredit>
-<mpMerit3Debit>N</mpMerit3Debit>
-<mpMerit3Credit>N</mpMerit3Credit>
-<mpSupermarketDebit>N</mpSupermarketDebit>
-<mpSupermarketCredit>N</mpSupermarketCredit>
-<mcCnsLoanCredit>N</mcCnsLoanCredit>
-<mcCnsLoanDebit>N</mcCnsLoanDebit>
-<mpWarehouseDebit>N</mpWarehouseDebit>
-<mpWarehouseCredit>N</mpWarehouseCredit>
-<mpSmallTicketDebit>N</mpSmallTicketDebit>
-<mpSmallTicketCredit>N</mpSmallTicketCredit>
-<interchangeNumber>G</interchangeNumber>
-<interchangeDollar>G</interchangeDollar>
-<vitalReportingServices>N</vitalReportingServices>
-<visaPartnerProgram>N</visaPartnerProgram>
-<merchantVerfValue/>
-<tieredMerchantID/>
-<prid/>
-<customerServicePhoneNum>1234567899</customerServicePhoneNum>
-<utility>N</utility>
-<g2gFlag>N</g2gFlag>
-<dtrFlag>N</dtrFlag>
-<taxFlag>N</taxFlag>
-<cpsCharityFlag>N</cpsCharityFlag>
-<mcCommSmktDebit>N</mcCommSmktDebit>
-<mcCommSmktCredit>N</mcCommSmktCredit>
-<convPurchDebit>N</convPurchDebit>
-<convPurchCredit>N</convPurchCredit>
-<mpRateOverride>N</mpRateOverride>
-<ppSupermarketDebit>N</ppSupermarketDebit>
-<ppRetailDebit>N</ppRetailDebit>
-<vsEnhCanadaFee/>
-</MerchantInterchangeTE>
-<MerchantACHTE>
-<delayPayDebits>0</delayPayDebits>
-<delayPayCredits>0</delayPayCredits>
-<daysSuspend>0</daysSuspend>
-<multicurrencyFunding>N</multicurrencyFunding>
-<dccFlag>N</dccFlag>
-<addendumFlag>N</addendumFlag>
-<checkService/>
-<MerchantTransactionDestinationTE>
-<global>M</global>
-<deposits></deposits>
-<adjustments></adjustments>
-<chargebacks></chargebacks>
-<reversals></reversals>
-<chargebackReversals></chargebackReversals>
-<ddaAdjustments></ddaAdjustments>
-<batchRC></batchRC>
-<otherTranType1></otherTranType1>
-<otherTranType2></otherTranType2>
-<otherTranType3></otherTranType3>
-</MerchantTransactionDestinationTE>
-<MerchantSamedayACHTE>
-<global>N</global>
-<deposits/>
-<adjustments/>
-<chargebacks/>
-<reversals/>
-<chargebackReversals/>
-<ddaAdjustments/>
-<batchRC/>
-<otherTranType1/>
-<otherTranType2/>
-<otherTranType3/>
-</MerchantSamedayACHTE>
-</MerchantACHTE>
-<MerchantMiscTE>
-<tapeReferenceId/>
-<spCondInd1/>
-<spCondInd2/>
-<numberOfPlastics>0</numberOfPlastics>
-<storage>N</storage>
-<DSL/>
-<lastCall>12319999</lastCall>
-<nextCall>12319999</nextCall>
-<numberMonthsNextCall>15</numberMonthsNextCall>
-<finStmtsDueDate>12319999</finStmtsDueDate>
-<finStmtsReceivedDate>12319999</finStmtsReceivedDate>
-<averageTicket>25</averageTicket>
-<percentKeyEntered>20</percentKeyEntered>
-<annualVolume>60000</annualVolume>
-<highTicket>100</highTicket>
-</MerchantMiscTE>
-<MerchantBeneficialOwnersTE>
-<MerchantBeneficialOwnerItemTEL/>
-</MerchantBeneficialOwnersTE>
-<MerchantProductSetupTE>
-<amexSettlement>N</amexSettlement>
-<!--<amexFrontEndOnlyCardType>N</amexFrontEndOnlyCardType>-->
-<!--<amexAccountNumber>1314610056</amexAccountNumber>-->
-<amexPcid/>
-<amexDescriptor/>
-<amexOptBlue>N</amexOptBlue>
-<highvolflg/>
-<!--<discoverFrontEndOnlyCardType>N</discoverFrontEndOnlyCardType>-->
-<!--<discoverAccountNumber>601121006042796</discoverAccountNumber>-->
-<discoverReferenceNumber/>
-<!--<discoverStatus/>-->
-<!--<discAuthCapNumber>601121006042796</discAuthCapNumber>-->
-<discoverMAPFlag>N</discoverMAPFlag>
-<jcbProcessingFlg>Y</jcbProcessingFlg>
-<reclearFlg></reclearFlg>
-<secWebCd/>
-<secTelCd/>
-<secCcdCd/>
-<secPopCd/>
-<achReportingEmailId/>
-</MerchantProductSetupTE>
-</XMLMerchantDemographicsTE>
-<MerchantCardPlansTE>
-<MerchantCardPlanItemTEL>
-<MerchantCardPlanItemTE>
-<csoCd>001,002</csoCd>
-</MerchantCardPlanItemTE>
-</MerchantCardPlanItemTEL>
-</MerchantCardPlansTE>
-<MerchantNameAddressesTE>
-<MerchantNameAddressItemTEL>
-<MerchantNameAddressItemTE>
-<seqNum>01</seqNum>
-<name>John Smith</name>
-<address>Lake Road</address>
-<attn>Att</attn>
-<postalCode>12345</postalCode>
-<city>SCHENECTADY</city>
-<state>NY</state>
-<country>US</country>
-<email/>
-<phoneNumber/>
-<faxNumber/>
-<usageCodes>RCL</usageCodes>
-<usageCodes>SHP</usageCodes>
-<usageCodes>MLR</usageCodes>
-<shipTo/>
-<shipMethod/>
-<specialHandling/>
-</MerchantNameAddressItemTE>
-<MerchantNameAddressItemTE>
-<seqNum>00</seqNum>
-<name>John Smith</name>
-<address>Lake Road</address>
-<attn>Att</attn>
-<postalCode>12345</postalCode>
-<city>SCHENECTADY</city>
-<state>NY</state>
-<country>US</country>
-<email/>
-<phoneNumber/>
-<faxNumber/>
-<usageCodes>AJF</usageCodes>
-<usageCodes>MSG</usageCodes>
-<usageCodes>BT3</usageCodes>
-<usageCodes>BT2</usageCodes>
-<usageCodes>BT1</usageCodes>
-<usageCodes>MIS</usageCodes>
-<usageCodes>CRB</usageCodes>
-<usageCodes>POS</usageCodes>
-<usageCodes>MEM</usageCodes>
-<usageCodes>DIS</usageCodes>
-<usageCodes>IRS</usageCodes>
-<usageCodes>IMP</usageCodes>
-<usageCodes>BIL</usageCodes>
-<usageCodes>CBF</usageCodes>
-<!-- <usageCodes></usageCodes> -->
-<!-- <usageCodes></usageCodes> -->
-<shipTo/>
-<shipMethod/>
-<specialHandling/>
-</MerchantNameAddressItemTE>
-</MerchantNameAddressItemTEL>
-</MerchantNameAddressesTE>
-<MerchantChargeRecordsTE>
-<MerchantChargeRecordItemTEL>
-<MerchantChargeRecordItemTE>
-<transitRoutingNumber>000000000</transitRoutingNumber>
-</MerchantChargeRecordItemTE>
-</MerchantChargeRecordItemTEL>
-</MerchantChargeRecordsTE>
-<MerchantPointToBetsTE>
-<PointToBetsListTEL/>
-</MerchantPointToBetsTE>
+  <XMLMerchantBasicInfoTE>
+    <beMerchNum>6320340201066705</beMerchNum>
+    <feMerchNum>340201066705</feMerchNum>
+    <agentNum/>
+    <chainNum/>
+    <assocNum>100701</assocNum>
+    <bankNumber>6320</bankNumber>
+    <binNum>433554</binNum>
+    <dbaName>Test Company 1 DBA</dbaName>
+    <merchantStatus/>
+    <backendOnlyMerchant>3</backendOnlyMerchant>
+    <leaseIndicator></leaseIndicator>
+    <source>O</source>
+    <clientMerchNum></clientMerchNum>
+    <merchantLegalNam>Test Company 1 LLC</merchantLegalNam>
+    <dda>0</dda>
+  </XMLMerchantBasicInfoTE>
+  <AmexRegistrationTE>
+	<AmexMerchantTE>
+		<bank>6320</bank>
+		<bin>433554</bin>
+		<beMerchNum>6320340201066705</beMerchNum>
+		<feMerchNum>340201066705</feMerchNum>
+		<originalRegistrationDt/>
+	</AmexMerchantTE>
+	<AmexSalesLeadTE>
+		<merchantType>3</merchantType>
+		<sellerLegalName>Test Company 1 LLC</sellerLegalName>
+		<federalTaxId>145551566</federalTaxId>
+		<sellerDBAName>Test Company 1 DBA</sellerDBAName>
+		<estimatedSalesVol>12000</estimatedSalesVol>
+		<salesChannelInd>IS</salesChannelInd>
+		<sellerAddress>19281 Merryweather Dr</sellerAddress>
+		<amexSignedDt/>
+		<salesChannelName>Merrick-Global Electronic</salesChannelName>
+		<sellerPostalCd>91351</sellerPostalCd>
+		<registrationStatus/>
+		<salesRepresentiveId>100701</salesRepresentiveId>
+		<sellerCity>CANYON COUNTR</sellerCity>
+		<sellerState>CA</sellerState>
+		<sellerCountry>US</sellerCountry>
+		<regStatusChangeDt/>
+		<isoRegistrationNumber>3962000001</isoRegistrationNumber>
+		<sellerCurrencyCd>USD</sellerCurrencyCd>
+		<disposition>1C</disposition>
+		<sellerId>6320340201066705</sellerId>
+		<marketingInd>Y</marketingInd>
+		<languageInd>EN</languageInd>
+		<sellerMCC>5999</sellerMCC>
+		<dispositionChangeDt/>
+	</AmexSalesLeadTE>
+	<AmexAcknowledgementTE>
+		<amexAnnualVol>Y</amexAnnualVol>
+		<franchiseListing>Y</franchiseListing>
+		<highRiskConsent>Y</highRiskConsent>
+	</AmexAcknowledgementTE>
+	<AmexRegistrationInfoTE>
+		<authSignerTitle>Owner</authSignerTitle>
+		<authSignerFirstName>Luis</authSignerFirstName>
+		<authSignerLastName>Mego</authSignerLastName>
+		<authSignerDOB>02161990</authSignerDOB>
+		<authSignerCountry>US</authSignerCountry>
+		<sigOwnerDOB>02161990</sigOwnerDOB>
+		<sellerBusinessPhone>3217041434</sellerBusinessPhone>
+		<sellerEmailAddress>lmego@gettrx.com</sellerEmailAddress>
+		<sigOwnerStreetAddress>19281 Merryweather Dr</sigOwnerStreetAddress>
+		<sellerURL>www.qimiapp.com</sellerURL>
+		<sigOwnerPostalCd>91351</sigOwnerPostalCd>
+		<sigOwnerFirstName>Luis</sigOwnerFirstName>
+		<sigOwnerCity>SANTA CLARITA</sigOwnerCity>
+		<sigOwnerState>CA</sigOwnerState>
+		<sigOwnerCountry>US</sigOwnerCountry>
+		<sigOwnerLastName>Mego</sigOwnerLastName>
+		<sigOwnerCurrencyCd>USD</sigOwnerCurrencyCd>
+		<sigOwnerSSN>777777771</sigOwnerSSN>
+		<industrySENum>1314610056</industrySENum> 
+		<amexOwnershipType>D</amexOwnershipType>
+		<AmexProcessorTEL/>
+	</AmexRegistrationInfoTE>
+  </AmexRegistrationTE>
+  <XMLMerchantDemographicsTE>
+    <MerchantParametersTE>
+      <salesCode/>
+      <userBankNumber>6320</userBankNumber>
+      <dateOpened>08222022</dateOpened>
+      <branch>0000</branch>
+      <cardBrandMCCParticipation>N</cardBrandMCCParticipation>
+      <sic>5999</sic>
+      <mcc>5999</mcc>
+      <amexMCC/>
+      <discoverMCC/>
+      <dbaPostalCode>91351</dbaPostalCode>
+      <dbaCity>Santa Clarita</dbaCity>
+      <dbaState>CA</dbaState>
+      <dbaCountry>US</dbaCountry>
+      <ownerName>Luis Mego</ownerName>
+      <ownerDob>02161990</ownerDob>
+      <socialSecurityNumber>777777771</socialSecurityNumber>
+      <driversLicenseNumber>4780040</driversLicenseNumber>
+      <ownState>CA</ownState>
+      <businessLicenseNumber/>
+      <dbaPhone>3217041434</dbaPhone>
+      <dbaExtension>0000</dbaExtension>
+      <dbaFax>3217041434</dbaFax>
+	 <managerName></managerName>
+      <assistantManager></assistantManager>
+      <yearsInBusiness>00</yearsInBusiness>
+      <otherContact></otherContact>
+	 <federalTaxId>145551566</federalTaxId>
+	 <stateTaxId></stateTaxId>
+      <chInfoSecurityProg>N</chInfoSecurityProg>
+      <lastCreditCheckDate>08222022</lastCreditCheckDate>
+      <dunsID></dunsID>
+      <merchantEmail>lmego@gettrx.com</merchantEmail>
+      <merchantWebsite>https://www.qimiapp.com</merchantWebsite>
+      <vsDescriptor></vsDescriptor>
+      <mcDescriptor></mcDescriptor>
+      <secondaryOwnerName>Roberto Sato</secondaryOwnerName>
+      <secondaryDOB>02121990</secondaryDOB>
+      <secondarySsn>777777772</secondarySsn>
+      <secdriversLicenseNumber>4780090</secdriversLicenseNumber>
+      <secState>CA</secState>
+      <secBusinessLicenseNumber></secBusinessLicenseNumber>
+      <ParameterCSF/>
+      <dailyAuthCount>0</dailyAuthCount>
+      <cwosThreshold></cwosThreshold>
+      <mcISOId></mcISOId>
+      <ownerFirstName>Luis</ownerFirstName>
+      <ownerLastName>Mego</ownerLastName>
+      <ownerHomeAddress>19281 Merryweather Dr</ownerHomeAddress>
+      <ownerHomeZipCd>91351</ownerHomeZipCd>
+      <ownerCity>Santa Clarita</ownerCity>
+      <ownerState>CA</ownerState>
+      <ownerPhoneNum>3217041434</ownerPhoneNum>
+      <salesRepEmailId></salesRepEmailId>
+      <typeOfGoodsSold></typeOfGoodsSold>
+      <percentOfRetail>50</percentOfRetail>
+      <percentOfEcommerce>30</percentOfEcommerce>
+      <achProcessFlg>N</achProcessFlg>
+      <debitReturnThreshold></debitReturnThreshold>
+      <ebtReturnThreshold></ebtReturnThreshold>
+      <chargeBackEmailId></chargeBackEmailId>
+      <mcRemoteCommerceAcceptorId></mcRemoteCommerceAcceptorId>
+      <countryOfOriginCd></countryOfOriginCd>
+      <vsMerchId></vsMerchId>
+    </MerchantParametersTE>
+    <MerchantAccountTE>
+      <typeBusiness>8</typeBusiness>
+      <typeOwner>0</typeOwner>
+      <typeSmallBusiness>0</typeSmallBusiness>
+      <typeOwnerEthnic>0</typeOwnerEthnic>
+      <incorporation>9</incorporation>
+      <edc>Y</edc>
+      <ach>Y</ach>
+      <officer1>0000</officer1>
+      <officer2>0000</officer2>
+      <dailyFees>B</dailyFees>
+      <dailySettlement>N</dailySettlement>
+      <repCode>0000</repCode>
+      <fnsNumber>0000000</fnsNumber>
+      <memberId>00000000</memberId>
+      <investigator>0000</investigator>
+      <met>9999</met>
+      <printStatement>Y</printStatement>
+      <holdStatement>N</holdStatement>
+      <newMerchantDeposits>Y</newMerchantDeposits>
+      <dailyExceptions>Y</dailyExceptions>
+      <rank>Y</rank>
+      <fraud>Y</fraud>
+      <userFlag1></userFlag1>
+      <userFlag2></userFlag2>
+      <userData1></userData1>
+      <userData2></userData2>
+      <userData3></userData3>
+      <userData4></userData4>
+      <userData5></userData5>
+      <userAcct1>0000000000000000</userAcct1>
+      <userAcct2>0000000000000000</userAcct2>
+      <pricingOption>0</pricingOption>
+      <termOfAgreement></termOfAgreement>
+      <seasonalMerchant>N</seasonalMerchant>
+      <excessiveCredits>N</excessiveCredits>
+      <excessiveTransactions>N</excessiveTransactions>
+      <AccountCSF/>
+      <irs1099kReportingFlg>Y</irs1099kReportingFlg>
+      <irs1099kMerchCopyInd>P</irs1099kMerchCopyInd>
+      <apIncludeFlg>N</apIncludeFlg>
+      <tinRollup>N</tinRollup>
+      <creditValidation>6</creditValidation>
+      <bwStartDate>00000000</bwStartDate>
+      <bwStopDate>00000000</bwStopDate>
+      <exempt>N</exempt>
+      <motoInd></motoInd>
+      <onlineInd></onlineInd>
+      <seasonalInd></seasonalInd>
+      <debitInd></debitInd>
+	 <payWaveInd></payWaveInd>
+	 <businessTypeCd>F</businessTypeCd>
+	 <ownershipTypeCd></ownershipTypeCd>
+	 <excessiveCreditNegativeBatch></excessiveCreditNegativeBatch>
+	 <amountOfCreditsInBatch></amountOfCreditsInBatch>
+	 <numberOfCreditsInBatch></numberOfCreditsInBatch>
+	 <excessiveTranSaleAmount></excessiveTranSaleAmount>
+	 <excessiveTranCreditAmount></excessiveTranCreditAmount>
+	 <bypassForcePost>N</bypassForcePost>
+	 <forcePostThresholdAmount></forcePostThresholdAmount>
+    </MerchantAccountTE>
+    <MerchantInterchangeTE>
+      <veSupermarket>N</veSupermarket>
+	 <veElecIntrReimbFee>N</veElecIntrReimbFee>
+	 <veCustomPaymentService>N</veCustomPaymentService>
+	 <vePSF>N</vePSF>
+	 <vePurchasingLargeTicket>N</vePurchasingLargeTicket>
+	 <veMerchantVolume>N</veMerchantVolume>
+	 <meMerit>N</meMerit>
+	 <meIndusIntrProg>N</meIndusIntrProg>
+	 <meWarehouseClub>N</meWarehouseClub>
+	 <meCategory>N</meCategory>
+	 <meTravelIndusPrem>N</meTravelIndusPrem>
+	 <discoverEligibility>N</discoverEligibility>
+	 <discDebtRepayment>N</discDebtRepayment>
+	 <vpSupermarketDebit>N</vpSupermarketDebit>
+	 <vpSupermarketCredit>N</vpSupermarketCredit>
+	 <vpRetailDebit>N</vpRetailDebit>
+	 <vpRetailCredit>N</vpRetailCredit>
+	 <mpMerit3Debit>N</mpMerit3Debit>
+	 <mpMerit3Credit>N</mpMerit3Credit>
+	 <mpSupermarketDebit>N</mpSupermarketDebit>
+	 <mpSupermarketCredit>N</mpSupermarketCredit>
+	 <mcCnsLoanCredit>N</mcCnsLoanCredit>
+	 <mcCnsLoanDebit>N</mcCnsLoanDebit>
+	 <mpWarehouseDebit>N</mpWarehouseDebit>
+	 <mpWarehouseCredit>N</mpWarehouseCredit>
+	 <mpSmallTicketDebit>N</mpSmallTicketDebit>
+	 <mpSmallTicketCredit>N</mpSmallTicketCredit>
+	 <interchangeNumber>G</interchangeNumber>
+	 <interchangeDollar>G</interchangeDollar>
+	 <vitalReportingServices>N</vitalReportingServices>
+	 <visaPartnerProgram>N</visaPartnerProgram>
+	 <merchantVerfValue></merchantVerfValue>
+	 <tieredMerchantID></tieredMerchantID>
+	 <prid></prid>
+	 <customerServicePhoneNum>3217041434</customerServicePhoneNum>
+	 <utility>N</utility>
+	 <g2gFlag>N</g2gFlag>
+	 <dtrFlag>N</dtrFlag>
+	 <taxFlag>N</taxFlag>
+	 <cpsCharityFlag>N</cpsCharityFlag>
+	 <mcCommSmktDebit>N</mcCommSmktDebit>
+	 <mcCommSmktCredit>N</mcCommSmktCredit>
+	 <convPurchDebit>N</convPurchDebit>
+	 <convPurchCredit>N</convPurchCredit>
+	 <mpRateOverride>N</mpRateOverride>
+	 <ppSupermarketDebit>N</ppSupermarketDebit>
+	 <ppRetailDebit>N</ppRetailDebit>
+	 <vsEnhCanadaFee></vsEnhCanadaFee>
+	 <smallMerchFlag>Y</smallMerchFlag>
+    </MerchantInterchangeTE>
+    <MerchantACHTE>
+      <delayPayDebits>0</delayPayDebits>
+	 <delayPayCredits>0</delayPayCredits>
+	 <daysSuspend>60</daysSuspend>
+	 <multicurrencyFunding>N</multicurrencyFunding>
+	 <dccFlag>N</dccFlag>
+	 <addendumFlag>N</addendumFlag>
+	 <checkService></checkService>
+	 <MerchantTransactionDestinationTE>
+		<global>M</global>
+		<deposits></deposits>
+		<adjustments></adjustments>
+		<chargebacks></chargebacks>
+		<reversals></reversals>
+		<chargebackReversals></chargebackReversals>
+		<ddaAdjustments></ddaAdjustments>
+		<batchRC></batchRC>
+		<otherTranType1></otherTranType1>
+		<otherTranType2></otherTranType2>
+		<otherTranType3></otherTranType3>
+	 </MerchantTransactionDestinationTE>
+      <MerchantSamedayACHTE>
+         <global>N</global>
+         <deposits/>
+         <adjustments/>
+         <chargebacks/>
+         <reversals/>
+         <chargebackReversals/>
+         <ddaAdjustments/>
+         <batchRC/>
+         <otherTranType1/>
+         <otherTranType2/>
+         <otherTranType3/>
+      </MerchantSamedayACHTE>
+    </MerchantACHTE>
+    <MerchantMiscTE>
+      <tapeReferenceId></tapeReferenceId>
+	 <spCondInd1></spCondInd1>
+	 <spCondInd2></spCondInd2>
+	 <storage>N</storage>
+	 <DSL></DSL>
+	 <lastCall>12319999</lastCall>
+	 <nextCall>12319999</nextCall>
+	 <numberMonthsNextCall>3</numberMonthsNextCall>
+	 <finStmtsDueDate>12319999</finStmtsDueDate>
+	 <finStmtsReceivedDate>12319999</finStmtsReceivedDate>
+	 <averageTicket>50</averageTicket>
+	 <percentKeyEntered>20</percentKeyEntered>
+	 <annualVolume>120000</annualVolume>
+	 <highTicket>100</highTicket>
+    </MerchantMiscTE>
+    <MerchantBeneficialOwnersTE>
+      <MerchantBeneficialOwnerItemTEL>
+		<MerchantBeneficialOwnerItemTE>
+			<ownerSeqNum>00</ownerSeqNum>
+			<firstName>Luis</firstName>
+			<middleInitial></middleInitial>
+			<lastName>Mego</lastName>
+			<suffix></suffix>
+			<attention></attention>
+			<address>19281 Merryweather Dr</address>
+			<postalCode>91351</postalCode>
+			<city>Santa Clarita</city>
+			<state>CA</state>
+			<country>US</country>
+			<dob>02161990</dob>
+			<title>10</title>
+			<ssn>777777771</ssn>
+			<passportNum></passportNum>
+			<passportIssuanceCountry></passportIssuanceCountry>
+			<ownershipPercentage></ownershipPercentage>
+			<ssnNotAvailableFlg>N</ssnNotAvailableFlg>
+		</MerchantBeneficialOwnerItemTE>
+		<MerchantBeneficialOwnerItemTE>
+			<ownerSeqNum>01</ownerSeqNum>
+			<firstName>Luis</firstName>
+			<middleInitial></middleInitial>
+			<lastName>Mego</lastName>
+			<suffix></suffix>
+			<attention></attention>
+			<address>19281 Merryweather Dr</address>
+			<postalCode>91351</postalCode>
+			<city>Santa Clarita</city>
+			<state>CA</state>
+			<country>US</country>
+			<dob>02161990</dob>
+			<title></title>
+			<ssn>777777771</ssn>
+			<passportNum></passportNum>
+			<passportIssuanceCountry></passportIssuanceCountry>
+			<ownershipPercentage>50</ownershipPercentage>
+			<ssnNotAvailableFlg>N</ssnNotAvailableFlg>
+		</MerchantBeneficialOwnerItemTE>
+		<MerchantBeneficialOwnerItemTE>
+			<ownerSeqNum>02</ownerSeqNum>
+			<firstName>Roberto</firstName>
+			<middleInitial></middleInitial>
+			<lastName>Sato</lastName>
+			<suffix></suffix>
+			<attention></attention>
+			<address>126 Spectacle Drive</address>
+			<postalCode>92618</postalCode>
+			<city>IRVINE</city>
+			<state>CA</state>
+			<country>US</country>
+			<dob>02121990</dob>
+			<title></title>
+			<ssn>777777772</ssn>
+			<passportNum></passportNum>
+			<passportIssuanceCountry></passportIssuanceCountry>
+			<ownershipPercentage>50</ownershipPercentage>
+			<ssnNotAvailableFlg>N</ssnNotAvailableFlg>
+		</MerchantBeneficialOwnerItemTE>
+    </MerchantBeneficialOwnerItemTEL>
+    </MerchantBeneficialOwnersTE>
+    <MerchantProductSetupTE>
+      <amexFrontEndOnlyCardType>N</amexFrontEndOnlyCardType>
+	 <amexAccountNumber>1314610056</amexAccountNumber>
+	 <amexSettlement>N</amexSettlement>
+	 <amexPcid></amexPcid>
+	 <amexDescriptor></amexDescriptor>
+	 <amexOptBlue>Y</amexOptBlue>
+	 <highvolflg></highvolflg>
+	 <discoverFrontEndOnlyCardType>N</discoverFrontEndOnlyCardType>
+	 <discoverAccountNumber>601121006042812</discoverAccountNumber>
+	 <discoverReferenceNumber></discoverReferenceNumber>
+	 <discoverStatus>SUBMITTED</discoverStatus>
+	 <jcbAccountNumber>1011969010</jcbAccountNumber>
+	 <jcbFrontEndOnlyCardType>Y</jcbFrontEndOnlyCardType>
+	 <jcbStatus></jcbStatus>
+	 <discAuthCapNumber>601121006042812</discAuthCapNumber>
+	 <discoverMAPFlag>Y</discoverMAPFlag>
+	 <jcbProcessingFlg>N</jcbProcessingFlg>
+	 <ProductCSF/>
+	 <achTranFlg></achTranFlg>
+	 <reclearFlg></reclearFlg>
+	 <secWebCd></secWebCd>
+	 <secTelCd></secTelCd>
+	 <secCcdCd></secCcdCd>
+	 <secPpdCd></secPpdCd>
+	 <secPopCd></secPopCd>
+	 <achReportingEmailId></achReportingEmailId>
+    </MerchantProductSetupTE>
+  </XMLMerchantDemographicsTE>
+  <MerchantCardPlansTE>
+    <MerchantCardPlanItemTEL>
+      <MerchantCardPlanItemTE>
+         <csoCd>001,002,005,007,008,011</csoCd>
+      </MerchantCardPlanItemTE>
+    </MerchantCardPlanItemTEL>
+  </MerchantCardPlansTE>
+  <MerchantNameAddressesTE>
+    <MerchantNameAddressItemTEL>
+      <MerchantNameAddressItemTE>
+          <seqNum>01</seqNum>
+		<name>Test Company 1 DBA</name>
+		<address>19281 Merryweather Dr</address>
+		<attn>Luis Mego</attn>
+		<postalCode>91351</postalCode>
+		<city>Santa Clarita</city>
+		<state>CA</state>
+		<country>US</country>
+		<email></email>
+		<phoneNumber></phoneNumber>
+		<faxNumber></faxNumber>
+		<usageCodes>RCL</usageCodes>
+		<usageCodes>SHP</usageCodes>
+		<usageCodes>MLR</usageCodes>
+		<shipTo></shipTo>
+		<shipMethod></shipMethod>
+		<specialHandling></specialHandling>
+      </MerchantNameAddressItemTE>
+      <MerchantNameAddressItemTE>
+          <seqNum>00</seqNum>
+	     <name>Test Company 1 LLC</name>
+		<address>19281 Merryweather Dr</address>
+		<attn>Luis Mego</attn>
+		<postalCode>91351</postalCode>
+		<city>Santa Clarita</city>
+		<state>CA</state>
+		<country>US</country>
+		<email></email>
+		<phoneNumber></phoneNumber>
+		<faxNumber></faxNumber>
+		<usageCodes>BT2</usageCodes>
+		<usageCodes>MSG</usageCodes>
+		<usageCodes>BT1</usageCodes>
+		<usageCodes>BT3</usageCodes>
+		<usageCodes>AJF</usageCodes>
+		<usageCodes>MIS</usageCodes>
+		<usageCodes>MEM</usageCodes>
+		<usageCodes>CRB</usageCodes>
+		<usageCodes>POS</usageCodes>
+		<usageCodes>DIS</usageCodes>
+		<usageCodes>IMP</usageCodes>
+		<usageCodes>CBF</usageCodes>
+		<usageCodes>IRS</usageCodes>
+		<usageCodes>BIL</usageCodes>
+		<shipTo></shipTo>
+		<shipMethod></shipMethod>
+		<specialHandling></specialHandling>
+      </MerchantNameAddressItemTE>
+    </MerchantNameAddressItemTEL>
+  </MerchantNameAddressesTE>
+  <MerchantChargeRecordsTE>
+    <MerchantChargeRecordItemTEL>
+      <MerchantChargeRecordItemTE>
+         <transitRoutingNumber>000000000</transitRoutingNumber>
+      </MerchantChargeRecordItemTE>
+    </MerchantChargeRecordItemTEL>
+  </MerchantChargeRecordsTE>
+  <MerchantPointToBetsTE>
+    <PointToBetsListTEL/>
+  </MerchantPointToBetsTE>
 </XMLMerchantTE>
 ]]]]>>
 <![CDATA[</data>
