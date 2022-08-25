@@ -1,5 +1,9 @@
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.xml.app.ve.vitalps.com/">
-   <soapenv:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"><wsse:BinarySecurityToken EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" wsu:Id="X509-879448938A83C38DB8166142475995544">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</wsse:BinarySecurityToken><ds:Signature Id="SIG-879448938A83C38DB8166142475995848" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces PrefixList="soapenv ws" xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI="#id-879448938A83C38DB8166142475995647"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces PrefixList="ws" xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Bl08ox6CiCgl6NZSKiKxOMLT4XA=</ds:DigestValue></ds:Reference><ds:Reference URI="#TS-879448938A83C38DB8166142475995343"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces PrefixList="wsse soapenv ws" xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>46KNXWJuzplFS3FJlGWKFHs3enc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>VUf9XV/6dc0OJvQvZueI0epFBrYPPkjZPV4CUpA+2sHjZy/Efu5FKcSOgqpzIvcg+e9XhDC0EuOC4+OlOLkno7aBQPI1HJoHhYec5qJNcXHDHqxFXOQmd/O0XwltobnBAPzgjsVDO0u/JIWaEM22xau+s2ftEr9+Iok37NISH3QWgVmT9EgJ31KeZDXJGYBYr+Ug7Z9bZLVB3O98HoCrsRwT89whNrLu7ElXrv2Dv14VcE0joWo82Bqr5pIhxLW4yONdI3lC/7txkRfTruSvsEjTnFa0T+2p0JEeurlgDiTgolRK2n4LaBb8rbLezOrFnFxhhw6DvIKT8aJu9lVakA==</ds:SignatureValue><ds:KeyInfo Id="KI-879448938A83C38DB8166142475995645"><wsse:SecurityTokenReference wsu:Id="STR-879448938A83C38DB8166142475995646"><wsse:Reference URI="#X509-879448938A83C38DB8166142475995544" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3"/></wsse:SecurityTokenReference></ds:KeyInfo></ds:Signature><wsu:Timestamp wsu:Id="TS-879448938A83C38DB8166142475995343"><wsu:Created>2022-08-25T10:52:39.953Z</wsu:Created><wsu:Expires>2022-08-28T22:12:39.953Z</wsu:Expires></wsu:Timestamp></wsse:Security></soapenv:Header>
+   <soapenv:Header>
+   <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+   <wsse:BinarySecurityToken EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" wsu:Id="X509-879448938A83C38DB8166142475995544">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
+   </wsse:BinarySecurityToken>
+   <ds:Signature Id="SIG-879448938A83C38DB8166142475995848" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces PrefixList="soapenv ws" xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI="#id-879448938A83C38DB8166142475995647"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces PrefixList="ws" xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Bl08ox6CiCgl6NZSKiKxOMLT4XA=</ds:DigestValue></ds:Reference><ds:Reference URI="#TS-879448938A83C38DB8166142475995343"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces PrefixList="wsse soapenv ws" xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>46KNXWJuzplFS3FJlGWKFHs3enc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>VUf9XV/6dc0OJvQvZueI0epFBrYPPkjZPV4CUpA+2sHjZy/Efu5FKcSOgqpzIvcg+e9XhDC0EuOC4+OlOLkno7aBQPI1HJoHhYec5qJNcXHDHqxFXOQmd/O0XwltobnBAPzgjsVDO0u/JIWaEM22xau+s2ftEr9+Iok37NISH3QWgVmT9EgJ31KeZDXJGYBYr+Ug7Z9bZLVB3O98HoCrsRwT89whNrLu7ElXrv2Dv14VcE0joWo82Bqr5pIhxLW4yONdI3lC/7txkRfTruSvsEjTnFa0T+2p0JEeurlgDiTgolRK2n4LaBb8rbLezOrFnFxhhw6DvIKT8aJu9lVakA==</ds:SignatureValue><ds:KeyInfo Id="KI-879448938A83C38DB8166142475995645"><wsse:SecurityTokenReference wsu:Id="STR-879448938A83C38DB8166142475995646"><wsse:Reference URI="#X509-879448938A83C38DB8166142475995544" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3"/></wsse:SecurityTokenReference></ds:KeyInfo></ds:Signature><wsu:Timestamp wsu:Id="TS-879448938A83C38DB8166142475995343"><wsu:Created>2022-08-25T10:52:39.953Z</wsu:Created><wsu:Expires>2022-08-28T22:12:39.953Z</wsu:Expires></wsu:Timestamp></wsse:Security></soapenv:Header>
    <soapenv:Body wsu:Id="id-879448938A83C38DB8166142475995647" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
       <ws:executeService>
          <!--Optional:-->
@@ -224,74 +228,74 @@
       <veSupermarket>N</veSupermarket>
  <veElecIntrReimbFee>N</veElecIntrReimbFee>
  <veCustomPaymentService>N</veCustomPaymentService>
- <vePSF>N</vePSF>
- <vePurchasingLargeTicket>N</vePurchasingLargeTicket>
- <veMerchantVolume>N</veMerchantVolume>
- <meMerit>N</meMerit>
- <meIndusIntrProg>N</meIndusIntrProg>
- <meWarehouseClub>N</meWarehouseClub>
- <meCategory>N</meCategory>
- <meTravelIndusPrem>N</meTravelIndusPrem>
- <discoverEligibility>N</discoverEligibility>
- <discDebtRepayment>N</discDebtRepayment>
- <vpSupermarketDebit>N</vpSupermarketDebit>
- <vpSupermarketCredit>N</vpSupermarketCredit>
- <vpRetailDebit>N</vpRetailDebit>
- <vpRetailCredit>N</vpRetailCredit>
- <mpMerit3Debit>N</mpMerit3Debit>
- <mpMerit3Credit>N</mpMerit3Credit>
- <mpSupermarketDebit>N</mpSupermarketDebit>
- <mpSupermarketCredit>N</mpSupermarketCredit>
- <mcCnsLoanCredit>N</mcCnsLoanCredit>
- <mcCnsLoanDebit>N</mcCnsLoanDebit>
- <mpWarehouseDebit>N</mpWarehouseDebit>
- <mpWarehouseCredit>N</mpWarehouseCredit>
- <mpSmallTicketDebit>N</mpSmallTicketDebit>
- <mpSmallTicketCredit>N</mpSmallTicketCredit>
- <interchangeNumber>G</interchangeNumber>
- <interchangeDollar>G</interchangeDollar>
- <vitalReportingServices>N</vitalReportingServices>
- <visaPartnerProgram>N</visaPartnerProgram>
- <merchantVerfValue></merchantVerfValue>
- <tieredMerchantID></tieredMerchantID>
- <prid></prid>
- <customerServicePhoneNum>3217041434</customerServicePhoneNum>
- <utility>N</utility>
- <g2gFlag>N</g2gFlag>
- <dtrFlag>N</dtrFlag>
- <taxFlag>N</taxFlag>
- <cpsCharityFlag>N</cpsCharityFlag>
- <mcCommSmktDebit>N</mcCommSmktDebit>
- <mcCommSmktCredit>N</mcCommSmktCredit>
- <convPurchDebit>N</convPurchDebit>
- <convPurchCredit>N</convPurchCredit>
- <mpRateOverride>N</mpRateOverride>
- <ppSupermarketDebit>N</ppSupermarketDebit>
- <ppRetailDebit>N</ppRetailDebit>
- <vsEnhCanadaFee></vsEnhCanadaFee>
- <smallMerchFlag>Y</smallMerchFlag>
+[0x9] <vePSF>N</vePSF>
+[0x9] <vePurchasingLargeTicket>N</vePurchasingLargeTicket>
+[0x9] <veMerchantVolume>N</veMerchantVolume>
+[0x9] <meMerit>N</meMerit>
+[0x9] <meIndusIntrProg>N</meIndusIntrProg>
+[0x9] <meWarehouseClub>N</meWarehouseClub>
+[0x9] <meCategory>N</meCategory>
+[0x9] <meTravelIndusPrem>N</meTravelIndusPrem>
+[0x9] <discoverEligibility>N</discoverEligibility>
+[0x9] <discDebtRepayment>N</discDebtRepayment>
+[0x9] <vpSupermarketDebit>N</vpSupermarketDebit>
+[0x9] <vpSupermarketCredit>N</vpSupermarketCredit>
+[0x9] <vpRetailDebit>N</vpRetailDebit>
+[0x9] <vpRetailCredit>N</vpRetailCredit>
+[0x9] <mpMerit3Debit>N</mpMerit3Debit>
+[0x9] <mpMerit3Credit>N</mpMerit3Credit>
+[0x9] <mpSupermarketDebit>N</mpSupermarketDebit>
+[0x9] <mpSupermarketCredit>N</mpSupermarketCredit>
+[0x9] <mcCnsLoanCredit>N</mcCnsLoanCredit>
+[0x9] <mcCnsLoanDebit>N</mcCnsLoanDebit>
+[0x9] <mpWarehouseDebit>N</mpWarehouseDebit>
+[0x9] <mpWarehouseCredit>N</mpWarehouseCredit>
+[0x9] <mpSmallTicketDebit>N</mpSmallTicketDebit>
+[0x9] <mpSmallTicketCredit>N</mpSmallTicketCredit>
+[0x9] <interchangeNumber>G</interchangeNumber>
+[0x9] <interchangeDollar>G</interchangeDollar>
+[0x9] <vitalReportingServices>N</vitalReportingServices>
+[0x9] <visaPartnerProgram>N</visaPartnerProgram>
+[0x9] <merchantVerfValue></merchantVerfValue>
+[0x9] <tieredMerchantID></tieredMerchantID>
+[0x9] <prid></prid>
+[0x9] <customerServicePhoneNum>3217041434</customerServicePhoneNum>
+[0x9] <utility>N</utility>
+[0x9] <g2gFlag>N</g2gFlag>
+[0x9] <dtrFlag>N</dtrFlag>
+[0x9] <taxFlag>N</taxFlag>
+[0x9] <cpsCharityFlag>N</cpsCharityFlag>
+[0x9] <mcCommSmktDebit>N</mcCommSmktDebit>
+[0x9] <mcCommSmktCredit>N</mcCommSmktCredit>
+[0x9] <convPurchDebit>N</convPurchDebit>
+[0x9] <convPurchCredit>N</convPurchCredit>
+[0x9] <mpRateOverride>N</mpRateOverride>
+[0x9] <ppSupermarketDebit>N</ppSupermarketDebit>
+[0x9] <ppRetailDebit>N</ppRetailDebit>
+[0x9] <vsEnhCanadaFee></vsEnhCanadaFee>
+[0x9] <smallMerchFlag>Y</smallMerchFlag>
     </MerchantInterchangeTE>
     <MerchantACHTE>
       <delayPayDebits>0</delayPayDebits>
- <delayPayCredits>0</delayPayCredits>
- <daysSuspend>60</daysSuspend>
- <multicurrencyFunding>N</multicurrencyFunding>
- <dccFlag>N</dccFlag>
- <addendumFlag>N</addendumFlag>
- <checkService></checkService>
- <MerchantTransactionDestinationTE>
-<global>M</global>
-<deposits></deposits>
-<adjustments></adjustments>
-<chargebacks></chargebacks>
-<reversals></reversals>
-<chargebackReversals></chargebackReversals>
-<ddaAdjustments></ddaAdjustments>
-<batchRC></batchRC>
-<otherTranType1></otherTranType1>
-<otherTranType2></otherTranType2>
-<otherTranType3></otherTranType3>
- </MerchantTransactionDestinationTE>
+[0x9] <delayPayCredits>0</delayPayCredits>
+[0x9] <daysSuspend>60</daysSuspend>
+[0x9] <multicurrencyFunding>N</multicurrencyFunding>
+[0x9] <dccFlag>N</dccFlag>
+[0x9] <addendumFlag>N</addendumFlag>
+[0x9] <checkService></checkService>
+[0x9] <MerchantTransactionDestinationTE>
+[0x9][0x9]<global>M</global>
+[0x9][0x9]<deposits></deposits>
+[0x9][0x9]<adjustments></adjustments>
+[0x9][0x9]<chargebacks></chargebacks>
+[0x9][0x9]<reversals></reversals>
+[0x9][0x9]<chargebackReversals></chargebackReversals>
+[0x9][0x9]<ddaAdjustments></ddaAdjustments>
+[0x9][0x9]<batchRC></batchRC>
+[0x9][0x9]<otherTranType1></otherTranType1>
+[0x9][0x9]<otherTranType2></otherTranType2>
+[0x9][0x9]<otherTranType3></otherTranType3>
+[0x9] </MerchantTransactionDestinationTE>
       <MerchantSamedayACHTE>
          <global>N</global>
          <deposits/>
@@ -308,111 +312,111 @@
     </MerchantACHTE>
     <MerchantMiscTE>
       <tapeReferenceId></tapeReferenceId>
- <spCondInd1></spCondInd1>
- <spCondInd2></spCondInd2>
- <storage>N</storage>
- <DSL></DSL>
- <lastCall>12319999</lastCall>
- <nextCall>12319999</nextCall>
- <numberMonthsNextCall>3</numberMonthsNextCall>
- <finStmtsDueDate>12319999</finStmtsDueDate>
- <finStmtsReceivedDate>12319999</finStmtsReceivedDate>
- <averageTicket>50</averageTicket>
- <percentKeyEntered>20</percentKeyEntered>
- <annualVolume>120000</annualVolume>
- <highTicket>100</highTicket>
+[0x9] <spCondInd1></spCondInd1>
+[0x9] <spCondInd2></spCondInd2>
+[0x9] <storage>N</storage>
+[0x9] <DSL></DSL>
+[0x9] <lastCall>12319999</lastCall>
+[0x9] <nextCall>12319999</nextCall>
+[0x9] <numberMonthsNextCall>3</numberMonthsNextCall>
+[0x9] <finStmtsDueDate>12319999</finStmtsDueDate>
+[0x9] <finStmtsReceivedDate>12319999</finStmtsReceivedDate>
+[0x9] <averageTicket>50</averageTicket>
+[0x9] <percentKeyEntered>20</percentKeyEntered>
+[0x9] <annualVolume>120000</annualVolume>
+[0x9] <highTicket>100</highTicket>
     </MerchantMiscTE>
     <MerchantBeneficialOwnersTE>
       <MerchantBeneficialOwnerItemTEL>
-<MerchantBeneficialOwnerItemTE>
-<ownerSeqNum>00</ownerSeqNum>
-<firstName>Luis</firstName>
-<middleInitial></middleInitial>
-<lastName>Mego</lastName>
-<suffix></suffix>
-<attention></attention>
-<address>19281 Merryweather Dr</address>
-<postalCode>91351</postalCode>
-<city>Santa Clarita</city>
-<state>CA</state>
-<country>US</country>
-<dob>02161990</dob>
-<title>10</title>
-<ssn>777777771</ssn>
-<passportNum></passportNum>
-<passportIssuanceCountry></passportIssuanceCountry>
-<ownershipPercentage></ownershipPercentage>
-<ssnNotAvailableFlg>N</ssnNotAvailableFlg>
-</MerchantBeneficialOwnerItemTE>
-<MerchantBeneficialOwnerItemTE>
-<ownerSeqNum>01</ownerSeqNum>
-<firstName>Luis</firstName>
-<middleInitial></middleInitial>
-<lastName>Mego</lastName>
-<suffix></suffix>
-<attention></attention>
-<address>19281 Merryweather Dr</address>
-<postalCode>91351</postalCode>
-<city>Santa Clarita</city>
-<state>CA</state>
-<country>US</country>
-<dob>02161990</dob>
-<title></title>
-<ssn>777777771</ssn>
-<passportNum></passportNum>
-<passportIssuanceCountry></passportIssuanceCountry>
-<ownershipPercentage>50</ownershipPercentage>
-<ssnNotAvailableFlg>N</ssnNotAvailableFlg>
-</MerchantBeneficialOwnerItemTE>
-<MerchantBeneficialOwnerItemTE>
-<ownerSeqNum>02</ownerSeqNum>
-<firstName>Roberto</firstName>
-<middleInitial></middleInitial>
-<lastName>Sato</lastName>
-<suffix></suffix>
-<attention></attention>
-<address>126 Spectacle Drive</address>
-<postalCode>92618</postalCode>
-<city>IRVINE</city>
-<state>CA</state>
-<country>US</country>
-<dob>02121990</dob>
-<title></title>
-<ssn>777777772</ssn>
-<passportNum></passportNum>
-<passportIssuanceCountry></passportIssuanceCountry>
-<ownershipPercentage>50</ownershipPercentage>
-<ssnNotAvailableFlg>N</ssnNotAvailableFlg>
-</MerchantBeneficialOwnerItemTE>
+[0x9][0x9]<MerchantBeneficialOwnerItemTE>
+[0x9][0x9][0x9]<ownerSeqNum>00</ownerSeqNum>
+[0x9][0x9][0x9]<firstName>Luis</firstName>
+[0x9][0x9][0x9]<middleInitial></middleInitial>
+[0x9][0x9][0x9]<lastName>Mego</lastName>
+[0x9][0x9][0x9]<suffix></suffix>
+[0x9][0x9][0x9]<attention></attention>
+[0x9][0x9][0x9]<address>19281 Merryweather Dr</address>
+[0x9][0x9][0x9]<postalCode>91351</postalCode>
+[0x9][0x9][0x9]<city>Santa Clarita</city>
+[0x9][0x9][0x9]<state>CA</state>
+[0x9][0x9][0x9]<country>US</country>
+[0x9][0x9][0x9]<dob>02161990</dob>
+[0x9][0x9][0x9]<title>10</title>
+[0x9][0x9][0x9]<ssn>777777771</ssn>
+[0x9][0x9][0x9]<passportNum></passportNum>
+[0x9][0x9][0x9]<passportIssuanceCountry></passportIssuanceCountry>
+[0x9][0x9][0x9]<ownershipPercentage></ownershipPercentage>
+[0x9][0x9][0x9]<ssnNotAvailableFlg>N</ssnNotAvailableFlg>
+[0x9][0x9]</MerchantBeneficialOwnerItemTE>
+[0x9][0x9]<MerchantBeneficialOwnerItemTE>
+[0x9][0x9][0x9]<ownerSeqNum>01</ownerSeqNum>
+[0x9][0x9][0x9]<firstName>Luis</firstName>
+[0x9][0x9][0x9]<middleInitial></middleInitial>
+[0x9][0x9][0x9]<lastName>Mego</lastName>
+[0x9][0x9][0x9]<suffix></suffix>
+[0x9][0x9][0x9]<attention></attention>
+[0x9][0x9][0x9]<address>19281 Merryweather Dr</address>
+[0x9][0x9][0x9]<postalCode>91351</postalCode>
+[0x9][0x9][0x9]<city>Santa Clarita</city>
+[0x9][0x9][0x9]<state>CA</state>
+[0x9][0x9][0x9]<country>US</country>
+[0x9][0x9][0x9]<dob>02161990</dob>
+[0x9][0x9][0x9]<title></title>
+[0x9][0x9][0x9]<ssn>777777771</ssn>
+[0x9][0x9][0x9]<passportNum></passportNum>
+[0x9][0x9][0x9]<passportIssuanceCountry></passportIssuanceCountry>
+[0x9][0x9][0x9]<ownershipPercentage>50</ownershipPercentage>
+[0x9][0x9][0x9]<ssnNotAvailableFlg>N</ssnNotAvailableFlg>
+[0x9][0x9]</MerchantBeneficialOwnerItemTE>
+[0x9][0x9]<MerchantBeneficialOwnerItemTE>
+[0x9][0x9][0x9]<ownerSeqNum>02</ownerSeqNum>
+[0x9][0x9][0x9]<firstName>Roberto</firstName>
+[0x9][0x9][0x9]<middleInitial></middleInitial>
+[0x9][0x9][0x9]<lastName>Sato</lastName>
+[0x9][0x9][0x9]<suffix></suffix>
+[0x9][0x9][0x9]<attention></attention>
+[0x9][0x9][0x9]<address>126 Spectacle Drive</address>
+[0x9][0x9][0x9]<postalCode>92618</postalCode>
+[0x9][0x9][0x9]<city>IRVINE</city>
+[0x9][0x9][0x9]<state>CA</state>
+[0x9][0x9][0x9]<country>US</country>
+[0x9][0x9][0x9]<dob>02121990</dob>
+[0x9][0x9][0x9]<title></title>
+[0x9][0x9][0x9]<ssn>777777772</ssn>
+[0x9][0x9][0x9]<passportNum></passportNum>
+[0x9][0x9][0x9]<passportIssuanceCountry></passportIssuanceCountry>
+[0x9][0x9][0x9]<ownershipPercentage>50</ownershipPercentage>
+[0x9][0x9][0x9]<ssnNotAvailableFlg>N</ssnNotAvailableFlg>
+[0x9][0x9]</MerchantBeneficialOwnerItemTE>
     </MerchantBeneficialOwnerItemTEL>
     </MerchantBeneficialOwnersTE>
     <MerchantProductSetupTE>
       <amexFrontEndOnlyCardType>N</amexFrontEndOnlyCardType>
- <amexAccountNumber>1314610056</amexAccountNumber>
- <amexSettlement>N</amexSettlement>
- <amexPcid></amexPcid>
- <amexDescriptor></amexDescriptor>
- <amexOptBlue>Y</amexOptBlue>
- <highvolflg></highvolflg>
- <discoverFrontEndOnlyCardType>N</discoverFrontEndOnlyCardType>
- <discoverAccountNumber>601121006042812</discoverAccountNumber>
- <discoverReferenceNumber></discoverReferenceNumber>
- <discoverStatus>SUBMITTED</discoverStatus>
- <jcbAccountNumber>1011969010</jcbAccountNumber>
- <jcbFrontEndOnlyCardType>Y</jcbFrontEndOnlyCardType>
- <jcbStatus></jcbStatus>
- <discAuthCapNumber>601121006042812</discAuthCapNumber>
- <discoverMAPFlag>Y</discoverMAPFlag>
- <jcbProcessingFlg>N</jcbProcessingFlg>
- <ProductCSF/>
- <achTranFlg></achTranFlg>
- <reclearFlg></reclearFlg>
- <secWebCd></secWebCd>
- <secTelCd></secTelCd>
- <secCcdCd></secCcdCd>
- <secPpdCd></secPpdCd>
- <secPopCd></secPopCd>
- <achReportingEmailId></achReportingEmailId>
+[0x9] <amexAccountNumber>1314610056</amexAccountNumber>
+[0x9] <amexSettlement>N</amexSettlement>
+[0x9] <amexPcid></amexPcid>
+[0x9] <amexDescriptor></amexDescriptor>
+[0x9] <amexOptBlue>Y</amexOptBlue>
+[0x9] <highvolflg></highvolflg>
+[0x9] <discoverFrontEndOnlyCardType>N</discoverFrontEndOnlyCardType>
+[0x9] <discoverAccountNumber>601121006042812</discoverAccountNumber>
+[0x9] <discoverReferenceNumber></discoverReferenceNumber>
+[0x9] <discoverStatus>SUBMITTED</discoverStatus>
+[0x9] <jcbAccountNumber>1011969010</jcbAccountNumber>
+[0x9] <jcbFrontEndOnlyCardType>Y</jcbFrontEndOnlyCardType>
+[0x9] <jcbStatus></jcbStatus>
+[0x9] <discAuthCapNumber>601121006042812</discAuthCapNumber>
+[0x9] <discoverMAPFlag>Y</discoverMAPFlag>
+[0x9] <jcbProcessingFlg>N</jcbProcessingFlg>
+[0x9] <ProductCSF/>
+[0x9] <achTranFlg></achTranFlg>
+[0x9] <reclearFlg></reclearFlg>
+[0x9] <secWebCd></secWebCd>
+[0x9] <secTelCd></secTelCd>
+[0x9] <secCcdCd></secCcdCd>
+[0x9] <secPpdCd></secPpdCd>
+[0x9] <secPopCd></secPopCd>
+[0x9] <achReportingEmailId></achReportingEmailId>
     </MerchantProductSetupTE>
   </XMLMerchantDemographicsTE>
   <MerchantCardPlansTE>
@@ -426,52 +430,52 @@
     <MerchantNameAddressItemTEL>
       <MerchantNameAddressItemTE>
           <seqNum>01</seqNum>
-<name>Test Company 1 DBA</name>
-<address>19281 Merryweather Dr</address>
-<attn>Luis Mego</attn>
-<postalCode>91351</postalCode>
-<city>Santa Clarita</city>
-<state>CA</state>
-<country>US</country>
-<email></email>
-<phoneNumber></phoneNumber>
-<faxNumber></faxNumber>
-<usageCodes>RCL</usageCodes>
-<usageCodes>SHP</usageCodes>
-<usageCodes>MLR</usageCodes>
-<shipTo></shipTo>
-<shipMethod></shipMethod>
-<specialHandling></specialHandling>
+[0x9][0x9]<name>Test Company 1 DBA</name>
+[0x9][0x9]<address>19281 Merryweather Dr</address>
+[0x9][0x9]<attn>Luis Mego</attn>
+[0x9][0x9]<postalCode>91351</postalCode>
+[0x9][0x9]<city>Santa Clarita</city>
+[0x9][0x9]<state>CA</state>
+[0x9][0x9]<country>US</country>
+[0x9][0x9]<email></email>
+[0x9][0x9]<phoneNumber></phoneNumber>
+[0x9][0x9]<faxNumber></faxNumber>
+[0x9][0x9]<usageCodes>RCL</usageCodes>
+[0x9][0x9]<usageCodes>SHP</usageCodes>
+[0x9][0x9]<usageCodes>MLR</usageCodes>
+[0x9][0x9]<shipTo></shipTo>
+[0x9][0x9]<shipMethod></shipMethod>
+[0x9][0x9]<specialHandling></specialHandling>
       </MerchantNameAddressItemTE>
       <MerchantNameAddressItemTE>
           <seqNum>00</seqNum>
-     <name>Test Company 1 LLC</name>
-<address>19281 Merryweather Dr</address>
-<attn>Luis Mego</attn>
-<postalCode>91351</postalCode>
-<city>Santa Clarita</city>
-<state>CA</state>
-<country>US</country>
-<email></email>
-<phoneNumber></phoneNumber>
-<faxNumber></faxNumber>
-<usageCodes>BT2</usageCodes>
-<usageCodes>MSG</usageCodes>
-<usageCodes>BT1</usageCodes>
-<usageCodes>BT3</usageCodes>
-<usageCodes>AJF</usageCodes>
-<usageCodes>MIS</usageCodes>
-<usageCodes>MEM</usageCodes>
-<usageCodes>CRB</usageCodes>
-<usageCodes>POS</usageCodes>
-<usageCodes>DIS</usageCodes>
-<usageCodes>IMP</usageCodes>
-<usageCodes>CBF</usageCodes>
-<usageCodes>IRS</usageCodes>
-<usageCodes>BIL</usageCodes>
-<shipTo></shipTo>
-<shipMethod></shipMethod>
-<specialHandling></specialHandling>
+[0x9]     <name>Test Company 1 LLC</name>
+[0x9][0x9]<address>19281 Merryweather Dr</address>
+[0x9][0x9]<attn>Luis Mego</attn>
+[0x9][0x9]<postalCode>91351</postalCode>
+[0x9][0x9]<city>Santa Clarita</city>
+[0x9][0x9]<state>CA</state>
+[0x9][0x9]<country>US</country>
+[0x9][0x9]<email></email>
+[0x9][0x9]<phoneNumber></phoneNumber>
+[0x9][0x9]<faxNumber></faxNumber>
+[0x9][0x9]<usageCodes>BT2</usageCodes>
+[0x9][0x9]<usageCodes>MSG</usageCodes>
+[0x9][0x9]<usageCodes>BT1</usageCodes>
+[0x9][0x9]<usageCodes>BT3</usageCodes>
+[0x9][0x9]<usageCodes>AJF</usageCodes>
+[0x9][0x9]<usageCodes>MIS</usageCodes>
+[0x9][0x9]<usageCodes>MEM</usageCodes>
+[0x9][0x9]<usageCodes>CRB</usageCodes>
+[0x9][0x9]<usageCodes>POS</usageCodes>
+[0x9][0x9]<usageCodes>DIS</usageCodes>
+[0x9][0x9]<usageCodes>IMP</usageCodes>
+[0x9][0x9]<usageCodes>CBF</usageCodes>
+[0x9][0x9]<usageCodes>IRS</usageCodes>
+[0x9][0x9]<usageCodes>BIL</usageCodes>
+[0x9][0x9]<shipTo></shipTo>
+[0x9][0x9]<shipMethod></shipMethod>
+[0x9][0x9]<specialHandling></specialHandling>
       </MerchantNameAddressItemTE>
     </MerchantNameAddressItemTEL>
   </MerchantNameAddressesTE>
